@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3DDFC9042EAA93AE00C06516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DDFC8EE2EAA93AB00C06516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DDFC8F52EAA93AC00C06516;
+			remoteInfo = "tietorakenteiden-visualisaattori";
+		};
+		3DDFC90E2EAA93AE00C06516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DDFC8EE2EAA93AB00C06516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DDFC8F52EAA93AC00C06516;
+			remoteInfo = "tietorakenteiden-visualisaattori";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D9682FE2ECB7326007CC020 /* tietorakenteiden-visualisaattori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tietorakenteiden-visualisaattori.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9682FF2ECB7326007CC020 /* tietorakenteiden-visualisaattoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tietorakenteiden-visualisaattoriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9683002ECB7326007CC020 /* tietorakenteiden-visualisaattoriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tietorakenteiden-visualisaattoriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D5152F72EBF9DF00080FFE9 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		3D5152F92EBF9E3C0080FFE9 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D5152FA2EBF9E6A0080FFE9 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DDFC8F32EAA93AC00C06516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDFC9002EAA93AE00C06516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDFC90A2EAA93AE00C06516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DDFC8ED2EAA93AB00C06516 = {
+			isa = PBXGroup;
+			children = (
+				3D5152F92EBF9E3C0080FFE9 /* Views */,
+				3D5152F72EBF9DF00080FFE9 /* App */,
+				3D5152FA2EBF9E6A0080FFE9 /* Models */,
+				3D9682FE2ECB7326007CC020 /* tietorakenteiden-visualisaattori.app */,
+				3D9682FF2ECB7326007CC020 /* tietorakenteiden-visualisaattoriTests.xctest */,
+				3D9683002ECB7326007CC020 /* tietorakenteiden-visualisaattoriUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DDFC8F52EAA93AC00C06516 /* tietorakenteiden-visualisaattori */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDFC9172EAA93AE00C06516 /* Build configuration list for PBXNativeTarget "tietorakenteiden-visualisaattori" */;
+			buildPhases = (
+				3DDFC8F22EAA93AC00C06516 /* Sources */,
+				3DDFC8F32EAA93AC00C06516 /* Frameworks */,
+				3DDFC8F42EAA93AC00C06516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3D5152F72EBF9DF00080FFE9 /* App */,
+				3D5152F92EBF9E3C0080FFE9 /* Views */,
+				3D5152FA2EBF9E6A0080FFE9 /* Models */,
+			);
+			name = "tietorakenteiden-visualisaattori";
+			packageProductDependencies = (
+			);
+			productName = "tietorakenteiden-visualisaattori";
+			productReference = 3D9682FE2ECB7326007CC020 /* tietorakenteiden-visualisaattori.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DDFC9022EAA93AE00C06516 /* tietorakenteiden-visualisaattoriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDFC91A2EAA93AE00C06516 /* Build configuration list for PBXNativeTarget "tietorakenteiden-visualisaattoriTests" */;
+			buildPhases = (
+				3DDFC8FF2EAA93AE00C06516 /* Sources */,
+				3DDFC9002EAA93AE00C06516 /* Frameworks */,
+				3DDFC9012EAA93AE00C06516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DDFC9052EAA93AE00C06516 /* PBXTargetDependency */,
+			);
+			name = "tietorakenteiden-visualisaattoriTests";
+			packageProductDependencies = (
+			);
+			productName = "tietorakenteiden-visualisaattoriTests";
+			productReference = 3D9682FF2ECB7326007CC020 /* tietorakenteiden-visualisaattoriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DDFC90C2EAA93AE00C06516 /* tietorakenteiden-visualisaattoriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDFC91D2EAA93AE00C06516 /* Build configuration list for PBXNativeTarget "tietorakenteiden-visualisaattoriUITests" */;
+			buildPhases = (
+				3DDFC9092EAA93AE00C06516 /* Sources */,
+				3DDFC90A2EAA93AE00C06516 /* Frameworks */,
+				3DDFC90B2EAA93AE00C06516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DDFC90F2EAA93AE00C06516 /* PBXTargetDependency */,
+			);
+			name = "tietorakenteiden-visualisaattoriUITests";
+			packageProductDependencies = (
+			);
+			productName = "tietorakenteiden-visualisaattoriUITests";
+			productReference = 3D9683002ECB7326007CC020 /* tietorakenteiden-visualisaattoriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DDFC8EE2EAA93AB00C06516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					3DDFC8F52EAA93AC00C06516 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					3DDFC9022EAA93AE00C06516 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 3DDFC8F52EAA93AC00C06516;
+					};
+					3DDFC90C2EAA93AE00C06516 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 3DDFC8F52EAA93AC00C06516;
+					};
+				};
+			};
+			buildConfigurationList = 3DDFC8F12EAA93AB00C06516 /* Build configuration list for PBXProject "tietorakenteiden-visualisaattori" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DDFC8ED2EAA93AB00C06516;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3DDFC8ED2EAA93AB00C06516;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DDFC8F52EAA93AC00C06516 /* tietorakenteiden-visualisaattori */,
+				3DDFC9022EAA93AE00C06516 /* tietorakenteiden-visualisaattoriTests */,
+				3DDFC90C2EAA93AE00C06516 /* tietorakenteiden-visualisaattoriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DDFC8F42EAA93AC00C06516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDFC9012EAA93AE00C06516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDFC90B2EAA93AE00C06516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DDFC8F22EAA93AC00C06516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDFC8FF2EAA93AE00C06516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDFC9092EAA93AE00C06516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DDFC9052EAA93AE00C06516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DDFC8F52EAA93AC00C06516 /* tietorakenteiden-visualisaattori */;
+			targetProxy = 3DDFC9042EAA93AE00C06516 /* PBXContainerItemProxy */;
+		};
+		3DDFC90F2EAA93AE00C06516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DDFC8F52EAA93AC00C06516 /* tietorakenteiden-visualisaattori */;
+			targetProxy = 3DDFC90E2EAA93AE00C06516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DDFC9152EAA93AE00C06516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DDFC9162EAA93AE00C06516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3DDFC9182EAA93AE00C06516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vt.tietorakenteiden-visualisaattori";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3DDFC9192EAA93AE00C06516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vt.tietorakenteiden-visualisaattori";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3DDFC91B2EAA93AE00C06516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vt.tietorakenteiden-visualisaattoriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tietorakenteiden-visualisaattori.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tietorakenteiden-visualisaattori";
+			};
+			name = Debug;
+		};
+		3DDFC91C2EAA93AE00C06516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vt.tietorakenteiden-visualisaattoriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tietorakenteiden-visualisaattori.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tietorakenteiden-visualisaattori";
+			};
+			name = Release;
+		};
+		3DDFC91E2EAA93AE00C06516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vt.tietorakenteiden-visualisaattoriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tietorakenteiden-visualisaattori";
+			};
+			name = Debug;
+		};
+		3DDFC91F2EAA93AE00C06516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vt.tietorakenteiden-visualisaattoriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tietorakenteiden-visualisaattori";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DDFC8F12EAA93AB00C06516 /* Build configuration list for PBXProject "tietorakenteiden-visualisaattori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDFC9152EAA93AE00C06516 /* Debug */,
+				3DDFC9162EAA93AE00C06516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDFC9172EAA93AE00C06516 /* Build configuration list for PBXNativeTarget "tietorakenteiden-visualisaattori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDFC9182EAA93AE00C06516 /* Debug */,
+				3DDFC9192EAA93AE00C06516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDFC91A2EAA93AE00C06516 /* Build configuration list for PBXNativeTarget "tietorakenteiden-visualisaattoriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDFC91B2EAA93AE00C06516 /* Debug */,
+				3DDFC91C2EAA93AE00C06516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDFC91D2EAA93AE00C06516 /* Build configuration list for PBXNativeTarget "tietorakenteiden-visualisaattoriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDFC91E2EAA93AE00C06516 /* Debug */,
+				3DDFC91F2EAA93AE00C06516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DDFC8EE2EAA93AB00C06516 /* Project object */;
+}
