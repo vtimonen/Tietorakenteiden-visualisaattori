@@ -1,6 +1,6 @@
 # Tietorakenteiden Visualisaattori
 
-**Tietorakenteiden Visualisaattori** on moderni iOS-sovellus, joka on kehitetty **Swiftillä** ja **SwiftUI:lla**. Sovelluksen tavoitteena on havainnollistaa klassisten tietorakenteiden toimintaa dynaamisen ja reaktiivisen käyttöliittymän avulla.
+**Tietorakenteiden Visualisaattori** on moderni sovellus, joka on kehitetty **Swiftillä** ja **SwiftUI:lla**. Sovelluksen tavoitteena on havainnollistaa klassisten tietorakenteiden toimintaa dynaamisen ja reaktiivisen käyttöliittymän avulla.
 
 Projekti toimii opetusvälineenä, joka visualisoi reaaliajassa, kuinka data liikkuu muistissa pinon, jonon ja binääripuun operaatioissa.
 
